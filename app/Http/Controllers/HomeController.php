@@ -148,7 +148,7 @@ class HomeController extends Controller
     {
         $firebaseToken = DeviceId::pluck('device_id')->all();
 
-         $SERVER_API_KEY = 'AAAA9Ek9F7U:APA91bEtCumEi8v_NmoBW6rQbm48iVNB4ctTguXS5G33Mj1FEmX48zlNYEHLWO3d6WfLkPD3ByKZQPrlJVl0swAd1ZxFWPMHWOdPWXD30sGCOvu_xIV7nTW9PC6cGiL6n3FOBHl1bavE';
+         $SERVER_API_KEY = 'Demo';
         $data = [
             "registration_ids" => $firebaseToken,
             "notification" => [
